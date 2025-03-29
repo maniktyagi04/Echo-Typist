@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Echo Typist</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="game-container">
+    <h1>🎙️ Echo Typist</h1>
+    <button id="start-btn">Start Game</button>
+
+    <div id="game-area" class="hidden">
+      <div id="word-display" class="word-box">🔊 Listen carefully...</div>
+      <input type="text" id="user-input" placeholder="Type what you heard..." autocomplete="off" />
+      <p id="feedback"></p>
+      <div class="status">
+        <p id="score">Score: 0</p>
+        <p id="timer">Time Left: 30</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
