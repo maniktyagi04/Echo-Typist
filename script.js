@@ -6,7 +6,7 @@ const feedback = document.getElementById('feedback');
 const scoreDisplay = document.getElementById('score');
 const timerDisplay = document.getElementById('timer');
 
-const words = ['hello', 'world', 'javascript', 'developer', 'game', 'speed', 'keyboard', 'audio', 'challenge', 'typing', 'Lomesh', 'echo', 'krushna', 'function', 'variable', 'future'];
+const words = ['hello', 'world', 'javascript', 'developer', 'game', 'speed', 'keyboard', 'audio', 'challenge', 'typing', 'Lomesh', 'Manik', 'echo', 'krushna', 'function', 'variable', 'future'];
 let currentWord = '';
 let score = 0;
 let timeLeft = 30;
